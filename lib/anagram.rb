@@ -9,7 +9,12 @@ class Anagram
   
   def match(array)
     array_comp = []
+    array_anagrams = []
+    
     array_comp = array
+    array_comp.each do |singleword|
+      
+    end
     
   end
 end
