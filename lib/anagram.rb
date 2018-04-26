@@ -9,7 +9,7 @@ class Anagram
   
   def match(array)
     array_comp = []
-    array_anagrams = []
+    anagrams = []
     
     array_comp = array
     array_comp.each do |singleword|
