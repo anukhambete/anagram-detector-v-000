@@ -13,7 +13,9 @@ class Anagram
     
     array_comp = array
     array_comp.each do |singleword|
-      
+      if @word.split.sort == singleword.split.sort
+        anagrams << singleword
+      end
     end
     
   end
